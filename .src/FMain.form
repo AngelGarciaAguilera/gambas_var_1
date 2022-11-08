@@ -1,0 +1,27 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { LResult Label
+    MoveScaled(10,3,44,22)
+    Font = Font["+7"]
+    Alignment = Align.Center
+    Text = ("RESULTADO")
+  }
+  { BSuma Button
+    MoveScaled(9,37,16,4)
+    Text = ("Sumar")
+  }
+  { BResta Button
+    MoveScaled(36,37,16,4)
+    Text = ("Restar")
+  }
+  { BDivision Button
+    MoveScaled(9,46,16,4)
+    Text = ("Dividir")
+  }
+  { BMultiplicacion Button
+    MoveScaled(36,46,16,4)
+    Text = ("Multiplicar")
+  }
+}
